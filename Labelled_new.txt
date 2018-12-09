@@ -1,0 +1,535 @@
+BASE	The current state of the art for image annotation and image retrieval tasks is obtained through deep neural network multimodal pipelines, which combine an image representation and a text representation into a shared embedding space.
+AIMX	In this paper we evaluate the impact of using the Full-Network embedding (FNE) in this setting, replacing the original image representation in four competitive multimodal embedding generation schemes.
+CONT	Unlike the one-layer image embeddings typically used by most approaches, the Full-Network embedding provides a multi-scale discrete representation of images, which results in richer characterisations
+OWNX	Extensive testing is performed on three different datasets comparing the performance of the studied variants and the impact of the FNE on a levelled playground, i.e., under equality of data used, source CNN models and hyper-parameter tuning.
+OWNX	The results obtained indicate that the Full-Network embedding is consistently superior to the one-layer embedding.
+OWNX	Furthermore, its impact on performance is superior to the improvement stemming from the other variants studied. 
+MISC	These results motivate the integration of the Full-Network embedding on any multimodal embedding generation scheme.
+MISC	In recent years, the increasing propagation of hate speech on social media and the urgent need for effective counter-measures have drawn significant investment from governments, companies, and researchers.
+BASE	A large number of methods have been developed for automated hate speech detection online. 
+AIMX	This aims to classify textual content into non-hate or hate speech, in which case the method may also identify the targeting characteristics (i.e., types of hate, such as race, and religion) in the hate speech.
+CONT	However, we notice significant difference between the performance of the two (i.e., non-hate v.s. hate). 
+OWNX	In this work, we argue for a focus on the latter problem for practical reasons. 
+OWNX 	We show that it is a much more challenging task, as our analysis of the language in the typical datasets shows that hate speech lacks unique, discriminative features and therefore is found in the 'long tail' in a dataset that is difficult to discover.
+OWNX	We then propose Deep Neural Network structures serving as feature extractors that are particularly effective for capturing the semantics of hate speech. 
+OWNX    Our methods are evaluated on the largest collection of hate speech datasets based on Twitter, and are shown to be able to outperform the best performing method by up to 5 percentage points in macro-average F1, or 8 percentage points in the more challenging case of identifying hateful content.
+MISC	Given a document collection, Document Retrieval is the task of returning the most relevant documents for a specified user query. 
+AIMX	In this paper, we assess a document retrieval approach exploiting Linked Open Data and Knowledge Extraction techniques. 
+BASE	Based on Natural Language Processing methods (e.g., Entity Linking, Frame Detection), knowledge extraction allows disambiguating the semantic content of queries and documents, linking it to established Linked Open Data resources (e.g., DBpedia, YAGO) from which additional semantic terms (entities, types, frames, temporal information) are imported to realize a semantic-based expansion of queries and documents.
+OWNX	The approach, implemented in the KE4IR system, has been evaluated on different state-of-the-art datasets, on a total of 555 queries and with document collections spanning from few hundreds to more than a million of documents. 
+CONT	The results show that the expansion with semantic content extracted from queries and documents enables consistently outperforming retrieval performances when only textual information is exploited; on a specific dataset for semantic search, KE4IR outperforms a reference ontology-based search system.
+OWNX	The experiments also validate the feasibility of applying knowledge extraction techniques for document retrieval — i.e., processing the document collection, building the expanded index, and searching over it — on large collections (e.g., TREC WT10g).
+BASE	Distributed ledger technologies such as blockchains and smart contracts have the potential to transform many sectors ranging from the handling of health records to real estate.
+AIMX	Here we discuss the value proposition of these technologies and crypto-currencies for science in general and academic publishing in specific. 
+OWNX	We outline concrete use cases, provide an informal model of how the Semantic Web journal's peer-review workflow could benefit from distributed ledger technologies
+MISC	and also point out challenges in implementing such a setup.
+MISC	Matching-related methods, i.e., entity resolution, entity search, or detecting evolution of entities, are essential parts in a variety of applications. 
+BASE	The specific research area contains a plethora of methods focusing on efficiently and effectively detecting whether two different pieces of information describe the same real world object or, in the case of entity search and evolution, retrieving the entities of a given collection that best match the user's description. 
+CONT	A primary limitation of the particular research area is the lack of a widely accepted benchmark for performing extensive experimental evaluation of the proposed methods, including not only the accuracy of results but also scalability as well as performance given different data characteristics. 
+AIMX	This paper introduces EMBench++, a principled system that can be used for generating benchmark data for the extensive evaluation of matching-related methods.
+OWNX	Our tool is a continuation of a previous system, with the primary contributions including: modifiers that consider not only individual entity types but all available types according to the overall schema; techniques supporting the evolution of entities; and mechanisms for controlling the generation of not single data sets but collections of data sets.
+OWNX	We also illustrate collections of entity sets generated by EMBench++ and discuss the benefits of using our system through the results of an experimental evaluation.
+MISC	When benchmarking RDF data management systems such as public transport route planners, system evaluation needs to happen under various realistic circumstances, which requires a wide range of datasets with different properties. 
+MISC	For this reason, synthetic dataset generators are typically preferred over real-world datasets due to their intrinsic flexibility. 
+CONT	Unfortunately, many synthetic dataset that are generated within benchmarks are insufficiently realistic, raising questions about the generalizability of benchmark results to real-world scenarios. 
+OWNX	In order to benchmark geospatial and temporal RDF data management systems such as route planners with sufficient external validity and depth, we designed PoDiGG, a highly configurable generation algorithm for synthetic public transport datasets with realistic geospatial and temporal characteristics comparable to those of their real-world variants. 
+BASE	The algorithm is inspired by real-world public transit network design and scheduling methodologies.
+AIMX	This article discusses the design and implementation of PoDiGG and validates the properties of its generated datasets. 
+OWNX	Our findings show that the generator achieves a sufficient level of realism, based on the existing coherence metric and new metrics we introduce specifically for the public transport domain. 
+OWNX	Thereby, PoDiGG provides a flexible foundation for benchmarking RDF data management systems with geospatial and temporal data.
+BASE	Stream-based reasoning systems process data stemming from different sources and that are received over time. 
+CONT	In this kind of applications, reasoning needs to cope with the temporal dimension and should be resilient against inconsistencies in the data.
+AIMX	Motivated by such settings, this paper addresses the problem of handling inconsistent data in a temporal version of ontology-mediated query answering. 
+OWNX	   We consider a recently proposed temporal query language that combines conjunctive queries with operators of propositional linear temporal logic, and consider these under three inconsistency-tolerant semantics that have been introduced for querying inconsistent description logic knowledge bases. 
+OWNX	We investigate their complexity for EL_bot and DL-Lite_R temporal knowledge bases. 
+OWNX	In particular, we consider two different cases, depending on the presence of negations in the query. 
+MISC	Furthermore, we complete the complexity picture for the consistent case. 
+CONT	We also provide two approaches toward practical algorithms for inconsistency-tolerant temporal query answering.
+AIMX	In this paper we describe VIG, a data scaler for Ontology-Based Data Access (OBDA) benchmarks. 
+BASE	Data scaling is a relatively recent approach, proposed in the database community, that allows for quickly scaling an input data instance to s times its size, while preserving certain application-specific characteristics.
+CONT	The advantages of the scaling approach are that the same generator is general, in the sense that it can be re-used on different database schemas, and that users are not required to manually input the data characteristics.
+OWNX	In the VIG system, we lift the scaling approach from the pure database level to the OBDA level, where the domain information of ontologies and mappings has to be taken into account as well. 
+MISC	VIG is efficient and notably each tuple is generated in constant time. 
+OWNX	To evaluate VIG, we have carried out an extensive set of experiments with three datasets (BSBM, DBLP, and NPD), using two OBDA systems (Ontop and D2RQ), backed by two relational database engines (MySQL and PostgreSQL), and compared with real-world data, ad-hoc data generators, and random data generators.
+OWNX	The encouraging results show that the data scaling performed by VIG is efficient and that the scaled data are suitable for benchmarking OBDA systems.
+BASE	Many research centers and medical institutions have been accumulating a vast amount of various biological and chemical data over the past decade and this trend continues. 
+BASE	Based on Linked Data vision, many semantic applications for distributed access to these heterogeneous RDF (Resource Description Framework) data sources have been developed. 
+CONT	Their improvements have brought about a decrease of intermediate results and optimizing query execution plans. 
+CONT	But still many requests are unsuccessful and they time out without producing any answer. 
+CONT	Also, the applications which operate over repositories taking into consideration their specificities and inter-connections are not available.
+AIMX	In this paper, the SpecINT is proposed as a comprehensive hybrid framework for data integration and federation in semantic data query processing over repositories. 
+OWNX	The SpecINT framework represents a trade-off solution between automatic and user-guided approaches, since it can create queries which return relevant results, while not being dependent on human work.
+OWNX	The innovativeness of the approach lays in the fact that the coordinates of graph eigenvectors are used for the automatic sub-queries joining over the most relevant data sources within repositories. 
+OWNX	In this way searching can be effected without a common ontology between resources. In experiments, we demonstrate the potential of our framework on a set of heterogeneous and distributed cheminformatics and bioinformatics data sources.
+BASE	Stream reasoning is an emerging research area focused on providing continuous reasoning solutions for data streams. 
+CONT	The exponential growth in the availability of streaming data on the Web has seriously hindered the applicability of state-of-the-art expressive reasoners, limiting their applicability to process streaming information in a scalable way. 
+CONT	In this scenario, in order to reduce the amount of data to reason upon at each iteration, we can leverage advances in continuous query processing over Semantic Web streams. 
+BASE	Following this principle, in previous work we have combined semantic query processing and non-monotonic reasoning over data streams in the StreamRule system. 
+AIMX	In the approach, we specifically focused on the scalability of a rule layer based on a fragment of Answer Set Programming (ASP).
+OWNX	We recently expanded on this approach by designing an algorithm to analyze input dependency so as to enable parallel execution and combine the results.
+AIMX	In this paper, we expand on this solution by providing i) a proof of correctness for the approach, ii) an extensive experimental evaluation for different levels of complexity of the input program, and iii) a clear characterization of all the algorithms involved in generating and splitting the graph and identifying heuristics for node duplication, as well as partitioning the reasoning process and combining the results.
+BASE	Semantics-based knowledge representations such as ontologies are found to be very useful in automatically generating meaningful factual questions.
+MISC	Determining the difficulty-level of these system-generated questions is helpful to effectively utilize them in various educational and professional applications. 
+CONT	The existing approach for for predicting the difficulty-level of factual questions utilizes only few naive features and, its accuracy (F-measure) is found to be close to only 50% while considering our benchmark set of 185 questions. 
+AIMX	In this paper, we propose a new methodology for this problem by identifying new features and by incorporating an educational theory, related to difficulty-level of a question, called Item Response Theory (IRT). 
+OWNX	In the IRT, knowledge proficiency of end users (learners) are considered for assigning difficulty-levels, because of the assumptions that a given question is perceived differently by learners of various proficiency levels.
+OWNX	We have done a detailed study on the features/factors of a question statement which could possibly determine its difficulty-level for three learner categories (experts, intermediates, and beginners).
+OWNX	We formulate ontology-based metrics for the same. 
+OWNX	We then train three logistic regression models to predict the difficulty-level corresponding to the three learner categories.
+OWNX	The output of these models is interpreted using the IRT to find a question’s overall difficulty-level. 
+OWNX	The accuracy of the three models based on cross-validation is found to be in satisfactory range (67-84%). 
+CONT	The proposed model (containing three classifiers) outperforms the existing model by more than 20% in precision, recall and F1-score measures.
+BASE	The publication and interchange of RDF datasets online has experienced significant growth in recent years, promoted by different but complementary efforts, such as Linked Open Data, the Web of Things and RDF stream processing systems. 
+CONT	However, the current Linked Data infrastructure does not cater for the storage and exchange of sensitive or private data. On the one hand, data publishers need means to limit access to confidential data (e.g. health, financial, personal, or other sensitive data).
+MISC	On the other hand, the infrastructure needs to compress RDF graphs in a manner that minimises the amount of data that is both stored and transferred over the wire. 
+AIMX	In this paper, we demonstrate how HDT - a compressed serialization format for RDF - can be extended to cater for supporting encryption.
+OWNX	We propose a number of different graph partitioning strategies and discuss the benefits and tradeoffs of each approach.
+BASE	Topical profiling of the datasets contained in the Linking Open Data (LOD) cloud has been of interest since such kind of data became available within the Web. 
+BASE	Different automatic classification approaches have been proposed in the past, in order to overcome the manual task of assigning topics for each and every individual (new) dataset. 
+CONT	Although the quality of those automated approaches is comparably sufficient, it has been shown, that in most cases a single topical label per dataset does not capture the topics described by the content of the dataset. 
+AIMX	Therefore, within the following study, we introduce a machine-learning based approach in order to assign a single topic, as well as multiple topics for one LOD dataset and evaluate the results. 
+OWNX	As part of this work, we present the first multi-topic classification benchmark for LOD cloud datasets, which is freely accessible. 
+MISC	In addition, the article discusses the challenges and obstacles, which need to be addressed when building such a benchmark.
+BASE	In recent years, named entity linking (NEL) tools were primarily developed in terms of a general approach, whereas today numerous tools are focusing on specific domains such as e,g. the mapping of persons and organizations only, or the annotation of locations or events in microposts.
+CONT	However, the available benchmark datasets necessary for the evaluation of NEL tools do not reflect this focalizing trend.
+OWNX	We have analyzed the evaluation process applied in the NEL benchmarking framework GERBIL and all its benchmark datasets.
+OWNX	Based on these insights we have extended the GERBIL framework to enable a more fine grained evaluation and in depth analysis of the available benchmark datasets with respect to different emphases. 
+AIMX	This paper presents the implementation of an adaptive filter for arbitrary entities and customized benchmark creation as well as the automated determination of typical NEL benchmark dataset properties, such as the extent of content-related ambiguity and diversity. 
+MISC	These properties are integrated on different levels, which also enables to tailor customized new datasets out of the existing ones by remixing documents based on desired emphases. 
+OWNX	Besides a new system library to enrich provided NIF datasets with statistical information, best practices for dataset remixing are presented, and an in depth analysis of the performance of entity linking systems on special focus datasets is presented.
+BASE	Mobile hardware has advanced to a point where apps may consume the Semantic Web of Data, as exemplified in domains such as mobile context-awareness, m-Health, m-Tourism and augmented reality. 
+CONT	However, recent work shows that the performance of ontology-based reasoning, an essential Semantic Web building block, still leaves much to be desired on mobile platforms. 
+CONT	This presents a clear need to provide developers with the ability to benchmark mobile reasoning performance, based on their particular application scenarios, i.e, including reasoning tasks, process flows and datasets, to establish the feasibility of mobile deployment. 
+AIMX	In this regard, we present a mobile benchmark framework called MobiBench to help developers to benchmark semantic reasoners on mobile platforms.
+BASE	To realize efficient mobile, ontology-based reasoning, OWL2 RL is a promising solution since it (a) trades expressivity for scalability, which is important on resource-constrained platforms; and (b) provides unique opportunities for optimization due to its rule-based axiomatization. 
+OWNX	In this vein, we propose selections of OWL2 RL rule subsets for optimization purposes, based on several orthogonal dimensions.
+OWNX	We extended MobiBench to support OWL2 RL and the proposed ruleset selections, and benchmarked multiple OWL2 RL-enabled rule engines and OWL reasoners on a mobile platform. 
+OWNX	Our results show significant performance improvements by applying OWL2 RL rule subsets, allowing performant reasoning for small datasets on mobile systems.
+BASE	The joint W3C (World Wide Web Consortium) and OGC (Open Geospatial Consortium) Spatial Data on the Web (SDW) Working Group developed a set of ontologies to describe sensors, actuators, samplers as well as their observations, actuation, and sampling activities.
+BASE	The ontologies have been published both as a W3C recommendation and as an OGC implementation standard. 
+BASE	The set includes a lightweight core module called SOSA (Sensor, Observation, Sampler, and Actuator) available at: http://www.w3.org/ns/sosa/, and a more expressive extension module called SSN (Semantic Sensor Network) available at: http://www.w3.org/ns/ssn/. 
+MISC	Together they describe systems of sensors and actuators, observations, the used procedures, the subjects and their properties being observed or acted upon, samples and the process of sampling, and so forth. 
+MISC	The set of ontologies adopts a modular architecture with SOSA as a self-contained core that is extended by SSN and other modules to add expressivity and breadth. 
+MISC	The SOSA/SSN ontologies are able to support a wide range of applications and use cases, including satellite imagery, large-scale scientific monitoring, industrial and household infrastructures, social sensing, citizen science, observation-driven ontology engineering, and the Internet of Things. 
+AIMX	In this paper we give an overview of the ontologies and discuss the rationale behind key design decisions, reporting on the differences between the new SSN ontology presented here and its predecessor developed by the W3C Semantic Sensor Network Incubator group (the SSN-XG).
+OWNX	We present usage examples and describe alignment modules that foster interoperability with other ontologies.
+AIMX	In this paper, we propose a novel embedding model, named ConvKB, for knowledge base completion. 
+OWNX	Our model ConvKB advances state-of-the-art models by employing a convolutional neural network, so that it can capture global relationships and transitional characteristics between entities and relations in knowledge bases. 
+OWNX	In ConvKB, each triple (head entity, relation, tail entity) is represented as a 3-column matrix where each column vector represents a triple element.
+OWNX	This 3-column matrix is then fed to a convolution layer where multiple filters are operated on the matrix to generate different feature maps.
+MISC	These feature maps are then concatenated into a single feature vector representing the input triple. 
+MISC	The feature vector is multiplied with a weight vector via a dot product to return a score. 
+MISC	This score is then used to predict whether the triple is valid or not.
+CONT	Experiments show that ConvKB obtains better link prediction and triple classification results than previous state-of-the-art models on benchmark datasets WN18RR, FB15k-237, WN11 and FB13. 
+OWNX	We further apply our ConvKB to search personalization problem which aims to tailor the search results to each specific user based on the user's personal interests and preferences. 
+OWNX	In particular, we model the potential relationship between the submitted query, the user and the search result (i.e., document) as a triple  on which the ConvKB is able to work. 
+OWNX	Experimental results on query logs from a commercial web search engine show that ConvKB achieves better performances than the standard ranker as well as up-to-date search personalization baselines.
+BASE	Knowledge bases are nowadays essential components for any task that requires automation with some degrees of intelligence. 
+CONT	Assessing the quality of a Knowledge Base (KB) is a complex task as it often means measuring the quality of structured information, ontologies and vocabularies, and queryable endpoints. 
+MISC	Popular knowledge bases such as DBpedia, YAGO2, and Wikidata have chosen the RDF data model to represent their data due to its capabilities for semantically rich knowledge representation. 
+CONT	Despite its advantages, there are challenges in using RDF data model, for example, data quality assessment and validation. 
+AIMX	In this paper, we present a novel knowledge base quality assessment approach that relies on evolution analysis. The proposed approach uses data profiling on consecutive knowledge base releases to compute quality measures that allow detecting quality issues. 
+OWNX	Our quality characteristics are based on the KB evolution analysis and we used high-level change detection for measurement functions. 
+OWNX	In particular, we propose four quality characteristics: Persistency, Historical Persistency, Consistency, and Completeness. 
+MISC	Persistency and historical persistency measures concern the degree of changes and lifespan of any entity type. 
+MISC	Consistency and completeness measures identify properties with incomplete information and contradictory facts. 
+OWNX	The approach has been assessed both quantitatively and qualitatively on a series of releases from two knowledge bases, eleven releases of DBpedia and eight releases of 3cixty. 
+MISC	The capability of Persistency and Consistency characteristics to detect quality issues varies significantly between the two case studies.
+MISC	Persistency measure gives observational results for evolving KBs. 
+MISC	It is highly effective in case of KB with periodic updates such as 3cixty KB. 
+OWNX	The Completeness characteristic is extremely effective and was able to achieve 95% precision in error detection for both use cases. 
+MISC	The measures are based on simple statistical operations that make the solution both flexible and scalable.
+AIMX	In this paper we present QA3, a question answering (QA) system over RDF data cubes. 
+OWNX	The system first tags chunks of text with elements of the knowledge base, and then leverages the well-defined structure of data cubes to create a SPARQL query from the tags. 
+OWNX	For each class of questions with the same structure a SPARQL template is defined, to be filled in with SPARQL fragments obtained by the interpretation of the question. 
+OWNX	The correct template is chosen by using an original set of regex-like patterns, based on both syntactical and semantic features of the tokens extracted from the question. 
+OWNX	Preliminary results obtained using a limited set of templates are encouraging and suggest a number of improvements. 
+MISC	QA3 can currently provide a correct answer to 27 of the 50 questions of the test set of the task 3 of QALD-6 challenge, remarkably improving the state of the art in natural language question answering over data cubes.
+BASE	The field of Complex Event Processing (CEP) deals with the techniques and tools developed to efficiently process pattern-based queries over data streams. 
+BASE	The Semantic Web, through its standards and technologies, is in constant pursuit to provide solutions for such paradigm while employing the RDF data model. 
+CONT	The integration of Semantic Web technologies in this context can handle the heterogeneity, integration and interpretation of data streams at the semantic level. 
+AIMX	In this paper, we propose and implement a new query language, called SPAseq, that extends SPARQL with new Semantic Complex Event Processing (SCEP) operators that can be evaluated over RDF graph-based events. 
+OWNX	The novelties of SPAseq include (i) the separation of general graph pattern matching constructs and temporal operators; (ii) the support for RDF graph-based events and multiple RDF graph streams; (iii) the expressibility of temporal operators such as Kleene+, conjunction, disjunction and event selection strategies; and (iv) the operators to integrate background information and streaming RDF graph streams.
+CONT	Hence, SPAseq enjoys good expressiveness compared with the existing solutions.
+OWNX	Furthermore, we provide an efficient implementation of SPAseq using a non-deterministic automata (NFA) model for an efficient evaluation of the SPAseq queries. 
+OWNX	We provide the syntax and semantics of SPAseq and based on this, we show how it can be implemented in an efficient manner. 
+OWNX	Moreover, we also present an experimental evaluation of its performance, showing that it improves over state-of-the-art approaches.
+BASE	Preference representation and reasoning play a central role in supporting users with complex and multi-factorial decision processes.
+BASE	In fact, user tastes can be used to filter information and data in a personalized way, thus maximizing their expected utility. 
+BASE	Over the years, many frameworks and languages have been proposed to deal with user preferences. 
+BASE	Among them, one of the most prominent formalism to represent and reason with (qualitative) conditional preferences (CPs) are conditional preference theories (CP-theories). 
+AIMX	In this paper, we show how to combine them with Semantic Web technologies in order to encode in a standard SPARQL 1.1 query the semantics of a set of CP statements representing user preferences by means of RDF triples that refer to a “preference” OWL ontology.
+OWNX	In particular, here we focus on context-uniform conditional (cuc) acyclic CP-theories. 
+OWNX	The framework that we propose allows a standard SPARQL client to query Linked Data datasets, and to order the results of such queries relative to a set of user preferences.
+BASE	The necessity of making the Semantic Web more accessible for lay users, alongside the uptake of interactive systems and smart assistants for the Web, have spawned a new generation of RDF-based question answering systems.
+CONT	However, fair evaluation of these systems remains a challenge due to the different type of answers that they provide.
+MISC	Hence, repeating current published experiments or even benchmarking on the same datasets remains a complex and time-consuming task.
+OWNX	We present a novel online benchmarking platform for question answering (QA) that relies on the FAIR principles to support the fine-grained evaluation of question answering systems. We detail how the platform addresses the fair benchmarking platform of question answering systems through the rewriting of URIs and URLs. 
+OWNX	In addition, we implement different evaluation metrics, measures, datasets and pre-implemented systems as well as methods to work with novel formats for interactive and non-interactive benchmarking of question answering systems. 
+OWNX	Our analysis of current frameworks shows that most of the current frameworks are tailored towards particular datasets and challenges but do not provide generic models. 
+CONT	In addition, while most frameworks perform well in the annotation of entities and properties, the generation of SPARQL queries from annotated text remains a challenge.
+BASE	RDF Graph Summarization pertains to the process of extracting concise but meaningful summaries from RDF Knowledge Bases (KBs) representing as close as possible the actual contents of the KB both in terms of structure and data. 
+BASE	RDF Summarization allows for better exploration and visualization of the underlying RDF graphs, optimization of queries or query evaluation in multiple steps, better understanding of connections in Linked Datasets and many other applications. 
+BASE	In the literature, there are efforts reported presenting algorithms for extracting summaries from RDF KBs. 
+CONT	These efforts though provide different results while applied on the same KB, thus a way to compare the produced summaries and decide on their quality and bestfitness for specific tasks, in the form of a quality framework, is necessary.
+AIMX	So in this work, we propose a comprehensive Quality Framework for RDF Graph Summarization that would allow a better, deeper and more complete understanding of the quality of the different summaries and facilitate their comparison.
+OWNX	We work at two levels: the level of the ideal summary of the KB that could be provided by an expert user and the level of the instances contained by the KB. 
+OWNX	For the first level, we are computing how close the proposed summary is to the ideal solution (when this is available) by defining and computing its precision, recall and F-measure against the ideal solution.
+OWNX	For the second level, we are computing if the existing instances are covered (i.e. can be retrieved) and in what degree by the proposed summary.
+OWNX	Again we define and compute its precision, recall and F-measure against the data contained in the original KB. 
+OWNX	We also compute the connectivity of the proposed summary compared to the ideal one, since in many cases (like, e.g., when we want to query) this is an important factor and in general in RDF, datasets that are linked within are usually used. 
+OWNX	We use our quality framework to test the results of three of the best RDF Graph Summarization algorithms, when summarizing different (in terms of content) and diverse (in terms of total size and number of instances, classes and predicates) KBs and we present comparative results for them.
+OWNX	We conclude this work by discussing these results and the suitability of the proposed quality framework in order to get useful insights for the quality of the presented results.
+BASE	Nowadays it is becoming increasingly necessary to query data stored in different datasets of public access, such as those included in the Linked Data environment, in order to get as much information as possible on distinct topics.
+CONT	However, users have difficulty to query those datasets with different vocabularies and data structures. 
+MISC	For this reason, it is interesting to develop systems that can produce on demand rewritings of queries.
+MISC	Moreover, a semantics preserving rewriting cannot often be guaranteed by those systems due to heterogeneity of the vocabularies. It is at this point where the quality estimation of the produced rewriting becomes crucial. 
+AIMX	In this paper we present a novel framework that, given a query written in the vocabulary the user is more familiar with, the system rewrites the query in terms of the vocabulary of a target dataset. 
+OWNX	Moreover, it also informs about the quality of the rewritten query with two scores: firstly, a similarity factor which is based on the rewriting process itself, and secondly, a quality score offered by a predictive model.
+OWNX	This model is constructed by a machine learning algorithm that learns from a set of queries and their intended (gold standard) rewritings.
+OWNX	The feasibility of the framework has been validated in a real scenario.
+BASE	DBpedia is a large-scale and multilingual knowledge base generated by extracting structured data from Wikipedia.
+CONT	There have been several attempts to use DBpedia to generate questions for trivia games, but these initiatives have not succeeded to produce large, varied, and entertaining question sets.
+CONT	Moreover, latency is too high for an interactive game if questions are created by submitting live queries to the public DBpedia endpoint. 
+AIMX	These limitations are addressed in Clover Quiz, a turn-based multiplayer trivia game for Android devices with more than 200K multiple choice questions (in English and Spanish) about different domains generated out of DBpedia.
+OWNX	Questions are created off-line through a data extraction pipeline and a versatile template-based mechanism. 
+OWNX	A back-end server manages the question set and the associated images, while a mobile app has been developed and released in Google Play. 
+MISC	The game is available free of charge and has been downloaded by more than 5K users since the game was released in March 2017. 
+MISC	Players have answered more than 614K questions and the overall rating of the game is 4.3 out of 5.0. 
+MISC	Therefore, Clover Quiz demonstrates the advantages of semantic technologies for collecting data and automating the generation of multiple choice questions in a scalable way.
+BASE	There is an emerging demand on efficiently archiving and (temporal) querying different versions of evolving semantic Web data.
+AIMX	As novel archiving systems are starting to address this challenge, foundations/standards for benchmarking RDF archives are needed to evaluate its storage space efficiency and the performance of different retrieval operations. 
+OWNX	To this end, we provide theoretical foundations on the design of data and queries to evaluate emerging RDF archiving systems. 
+OWNX	Then, we instantiate these foundations along a concrete set of queries on the basis of a real-world evolving datasets. 
+OWNX	Finally, we perform an extensive empirical evaluation of current archiving techniques and querying strategies, which is meant to serve as a baseline of future developments on querying archives of evolving RDF data.
+BASE	There is an emerging demand on efficiently archiving and (temporal) querying different versions of evolving semantic Web data. 
+AIMX	As novel archiving systems are starting to address this challenge, foundations/standards for benchmarking RDF archives are needed to evaluate its storage space efficiency and the performance of different retrieval operations. 
+OWNX	To this end, we provide theoretical foundations on the design of data and queries to evaluate emerging RDF archiving systems. 
+OWNX	Then, we instantiate these foundations along a concrete set of queries on the basis of a real-world evolving datasets. 
+OWNX	Finally, we perform an extensive empirical evaluation of current archiving techniques and querying strategies, which is meant to serve as a baseline of future developments on querying archives of evolving RDF data.
+AIMX	We introduce a novel method to answer natural language queries about rehabilitation robotics, over the formal ontology RehabRobo-Onto.
+OWNX	For that, (i) we design and develop a novel controlled natural language for rehabilitation robotics, called RehabRobo-CNL; (ii) we introduce translations of queries in RehabRobo-CNL into Sparql queries, utilizing a novel concept of query description trees; (iii) we use an automated reasoner to find answers to Sparql queries. 
+OWNX	To facilitate the use of our method by experts, we develop an intelligent, interactive query answering system, called RehabRobo-Query, using Semantic Web technologies, and make it available on the cloud via Amazon web services. 
+MISC	RehabRobo-Query guides the users to express their queries in natural language and displays the answers to queries in a readable format, possibly with links to detailed information.
+MISC	Easy access to information on RehabRobo-Onto through complex queries in natural language may help engineers inspire new rehabilitation robot designs, while also guiding practitioners to make more informed decisions on technology based rehabilitation.
+BASE	The contextual information in the built environment is highly heterogeneous, it goes from static information (e.g., information about the building structure) to dynamic information (e.g., user's space-time information, sensors detections and events that occurred). 
+AIMX	This paper proposes to semantically fuse the building's contextual information with extracted data from a smart camera network by using ontologies and semantic web technologies. 
+OWNX	The developed ontology allows interoperability between the different contextual data and enables, without human interaction, real-time event detections and system reconfiguration to be performed. 
+OWNX	The use of semantic knowledge in multi-camera monitoring systems guarantees the protection of the user's privacy by not sending nor saving any image, just extracting the knowledge from them. 
+AIMX	This paper presents a new approach to develop an "all-seeing" smart building, where the global system is the first step to attempt to provide Artificial Intelligence (AI) to a building.
+BASE	The maintenance and use of metadata such as provenance and time-related information is of increasing importance in the Semantic Web, especially for Big Data applications that work on heterogeneous data from multiple sources and which require high data quality.
+BASE	In an RDF dataset, it is possible to store metadata alongside the actual RDF data and several possible metadata representation models have been proposed.
+CONT	However, there is still no in-depth comparative evaluation of the main representation alternatives on both the conceptual level and the implementation level using different graph backends.
+AIMX	In order to help to close this gap, we introduce major use cases and requirements for storing and using diverse kinds of metadata.
+OWNX	Based on these requirements, we perform a detailed comparison and benchmark study for different RDF-based metadata representations, including a new approach based on so-called companion properties. 
+OWNX	The benchmark evaluation considers two datasets and evaluates different representations for three popular RDF stores.
+AIMX	In this paper, we propose to extend SPARQL functions for querying Industry Foundation Classes (IFC) building data. 
+MISC	The official IFC documentation and BIM requirement checking use cases are used to drive the development of the proposed functionality. 
+OWNX	By extending these functions, we aim to 1) simplify writing queries and 2) retrieve useful information implied in 3D geometry data according to requirement checking use cases. 
+OWNX	Extended functions are modelled as RDF vocabularies and classified into groups for further extensions.
+OWNX	We combine declarative rules with procedural programming to implement extended functions. 
+MISC	Realistic requirement checking scenarios are used to evaluate and demonstrate the effectiveness of this approach and indicate query performance. 
+CONT	Compared with query techniques developed in the conventional Building Information Modeling domain, we show the added value of such approach by providing an application example of querying building and regulatory data, where spatial and logic reasoning can be applied and data from multiple sources are required. 
+OWNX	Based on the implementation and evaluation work, we discuss the advantages and applicability of this approach, current issues and future challenges.
+BASE	Data owners are creating an ever richer set of information resources online, and these are being used for more and more applications.
+MISC	Spatial data on the Web is becoming ubiquitous and voluminous with the rapid growth of location-based services, spatial technologies, dynamic location-based data and services published by different organizations. 
+CONT	However, the heterogeneity and the peculiarities of spatial data, in particular, make it difficult for data users, Web applications, and services to discover, interpret and use the information in the large and distributed system that is the Web.
+AIMX	To make spatial data more effectively available, this paper summarizes the work of the joint W3C/OGC Working Group on Spatial Data on the Web that identifies 14 best practices for publishing spatial data on the Web. 
+OWNX	The paper extends that work by presenting the identified challenges and rationale for selection of the recommended best practices, framed by the set of principles that guided the selection. 
+OWNX	It describes best practices that are employed to enable publishing, discovery and retrieving (querying) spatial data on the Web, and identifies some areas where a best practice has not yet.
+BASE	The large number of tweets generated daily is providing decision makers with means to obtain insights into recent events around the globe in near real-time.
+CONT	The main barrier for extracting such insights is the impossibility of manual inspection of a diverse and dynamic amount of information. 
+MISC	This problem has attracted the attention of industry and research communities,resulting in algorithms for the automatic extraction of semantics in tweets and linking them to machine readable resources.
+MISC	While a tweet is shallowly comparable to any other textual content, it hides a complex and challenging structure that requires domain-specific computational approaches for mining semantics from it.
+BASE The NEEL challenge series, established in 2013, has contributed to the collection of emerging trends in the field and definition of standardised benchmark corpora for entity recognition and linking in tweets, ensuring high quality labelled data that facilitates comparisons between different approaches.
+AIMX	This article reports the findings and lessons learnt through an analysis of specific characteristics of the created corpora, limitations, lessons learnt from the different participants and pointers for furthering the field of entity recognition and linking in tweets.
+BASE	Large volumes of geospatial data are being published on the Semantic Web (SW), yielding a need for advanced analysis of such data.
+CONT	However, existing SW technologies only support advanced analytical concepts such as multidimensional (MD) data warehouses and Online Analytical Processing (OLAP) over non-spatial SW data. 
+AIMX	To remedy this need, this paper presents the QB4SOLAP vocabulary, which supports spatially enhanced MD data cubes over RDF data. 
+AIMX	The paper also defines a number of Spatial OLAP (SOLAP) operators over QB4SOLAP cubes and provides algorithms for generating spatially extended SPARQL queries from the SOLAP operators.
+OWNX	The proposals are validated by applying them to a realistic use case.
+BASE	Hybrid annotation techniques have emerged as a promising approach to carry out named entity recognition on noisy microposts. 
+AIMX	In this paper, we identify a set of content and crowdsourcing-related features (number and type of entities in a post, average length and sentiment of tweets, composition of skipped tweets, average time spent to complete the tasks, and interaction with the user interface) and analyse their impact on correct and incorrect human annotations. 
+OWNX	We then carried out further studies on the impact of extended annotation instructions and disambiguation guidelines on the factors listed above.
+OWNX	This was all done using CrowdFlower and a simple, custom built gamified NER tool on three datasets from related literature and a fourth newly annotated corpus.
+OWNX	Our findings show that crowd workers correctly annotate shorter tweets with fewer entities, while they skip (or wrongly annotate) longer tweets with more entities.
+MISC	Workers are also adept at recognising people and locations, while they have difficulties in identifying organisations and miscellaneous entities which they skip (or wrongly annotate).
+MISC	Finally, detailed guidelines do not necessarily lead to improved annotation quality.
+MISC	We expect these findings to lead to the design of more advanced NER pipelines, informing the way in which tweets are chosen to be outsourced to automatic tools, crowdsourced workers and nichesourced experts.
+OWNX	Experimental results are published as JSON-LD for further use.
+BASE	DBpedia is one of the earliest and most prominent nodes of the Linked Open Data cloud. 
+BASE	DBpedia extracts and provides structured data for various crowd-maintained information sources such as over 100 Wikipedia language editions as well as Wikimedia Commons by employing a mature ontology and a stable and thorough Linked Data publishing lifecycle. 
+CONT	Wikidata, on the other hand, has recently emerged as a user curated source for structured information which is included inWikipedia. 
+AIMX	In this paper, we present how Wikidata is incorporated in the DBpedia eco-system.
+MISC	Enriching DBpedia with structured information from Wikidata provides added value for a number of usage scenarios. 
+OWNX	We outline those scenarios and describe the structure and conversion process of the DBpediaWikidata (DBW) dataset.
+BASE	Large-scale knowledge graphs such as those in the Linked Data cloud are typically stored as subject-predicate-object triples.
+CONT	However, many facts about the world involve more than two entities. 
+CONT	While n-ary relations can be converted to triples in a number of ways, unfortunately, the structurally different choices made in different knowledge sources significantly impede our ability to connect them.
+CONT	They also increase semantic heterogeneity, making it impossible to query the data concisely and without prior knowledge of each individual source.
+AIMX	This article presents FrameBase, a wide-coverage knowledge base schema that uses linguistic frames to represent and query n-ary relations from other knowledge bases, providing multiple levels of granularity connected via logical entailment.
+OWNX	Overall, this provides a means for semantic integration from heterogeneous sources under a single schema and opens up possibilities to draw on natural language processing techniques for querying and data mining.
+AIMX	The research goal of this work is to investigate modeling patterns that recur in ontologies. 
+MISC	Such patterns may originate from certain design solutions, and they may possibly indicate emerging ontology design patterns.
+OWNX	We describe our tree-mining method for identifying the emerging design patterns.
+OWNX	The method works in two steps: (1) we transform the ontology axioms in a tree shape in order to find axiom patterns; and then, (2) we use association analysis to mine co-occuring axiom patterns in order to extract emerging design patterns. 
+OWNX	We conduct an experimental study on a set of 331 ontologies from the BioPortal repository.
+OWNX	We show that recurring axiom patterns appear across all individual ontologies, as well as across the whole set. 
+OWNX	In individual ontologies, we find frequent and non-trivial patterns with and without variables.
+CONT	Some of the former patterns have more than 300,000 occurrences.
+OWNX	The longest pattern without a variable discovered from the whole ontology set has size 12, and it appears in 14 ontologies.
+OWNX	To the best of our knowledge, this is the first method for automatic discovery of emerging design patterns in ontologies.
+OWNX	Finally, we demonstrate that we are able to automatically detect patterns, for which we have manually confirmed that they are fragments of ontology design patterns described in the literature.
+OWNX	Since our method is not specific to particular ontologies, we conclude that we should be able to discover new, emerging design patterns for arbitrary ontology sets.
+BASE	Named Entity Disambiguation is the task of assigning entities from a Knowledge Base to mentions of such entities in a textual document.
+AIMX	This article presents two novel approaches guided by a natural notion of semantic similarity for the collective disambiguation of all entities mentioned in a document at the same time.
+OWNX	We adopt a unified semantic representation for entities and documents—the probability distribution obtained from a random walk on a subgraph of the knowledge base—as well as lexical and statistical features commonly used for this task.
+OWNX	The first approach is an iterative and greedy approximation, while the second is based on learning-to-rank.
+OWNX	Our experimental evaluation demonstrates that our approach is robust and competitive on well-known existing benchmarks.
+OWNX	We justify the need for new benchmarks, and show that both our methods outperform the previous state-of-the-art by a wide margin.
+MISC	Human behavior is impacted by emotion, mood, personality, needs and subjective well-being.
+MISC	Emotion and mood are human affective states while personality, needs and subjective well-being are influences on those affective states. BASE	Ontologies are a method of representing real-world knowledge, such as human affective states and their influences, in a format that a computer can process.
+BASE	They allow researchers to build systems that harness affective states.
+BASE	By unifying terms and meanings, ontologies enable these systems to communicate and share knowledge with each other.
+AIMX	In this paper, we survey existing ontologies on affective states and their influences.
+OWNX	We also provide the psychological background of affective states, their influences and representational models.
+OWNX	The paper discusses a total of 20 ontologies on emotion, one ontology on mood, one ontology on needs, and 11 general purpose ontologies and lexicons.
+OWNX	Based on the analysis of existing ontologies, we summarize and discuss the current state of the art in the field.
+BASE	Data-oriented systems and applications are at the centre of current developments of the World Wide Web.
+BASE	In these scenarios, assessing what policies propagate from the licenses of data sources to the output of a given data-intensive system is an important problem. 
+BASE	Both policies and data flows can be described with Semantic Web languages.
+CONT	Although it is possible to define Policy Propagation Rules (PPR) by associating policies to data flow steps, this activity results in a huge number of rules to be stored and managed. 
+BASE	In a recent paper, we introduced strategies for reducing the size of a PPR knowledge base by using an ontology of the possible relations between data objects, the Datanode ontology, and applying the (A)AAAA methodology, a knowledge engineering approach that exploits Formal Concept Analysis (FCA).
+AIMX	In this article, we investigate whether this reasoning is feasible and how it can be performed.
+OWNX	For this purpose, we study the impact of compressing a rule base associated with an inference mechanism on the performance of the reasoning process.
+OWNX	Moreover, we report on an extension of the (A)AAAA methodology that includes a coherency check algorithm, that makes this reasoning possible. OWNX	We show how this compression, in addition to being beneficial to the management of the knowledge base, also has a positive impact on the performance and resource requirements of the reasoning process for policy propagation.
+MISC	QA3 can currently provide a correct answer to 27 of the 50 questions of the test set of the task 3 of QALD-6 challenge, remarkably improving the state of the art in natural language question answering over data cubes.
+BASE	The field of Complex Event Processing (CEP) deals with the techniques and tools developed to efficiently process pattern-based queries over data streams. 
+BASE	The Semantic Web, through its standards and technologies, is in constant pursuit to provide solutions for such paradigm while employing the RDF data model. 
+CONT	The integration of Semantic Web technologies in this context can handle the heterogeneity, integration and interpretation of data streams at the semantic level. 
+AIMX	In this paper, we propose and implement a new query language, called SPAseq, that extends SPARQL with new Semantic Complex Event Processing (SCEP) operators that can be evaluated over RDF graph-based events. 
+OWNX	The novelties of SPAseq include (i) the separation of general graph pattern matching constructs and temporal operators; (ii) the support for RDF graph-based events and multiple RDF graph streams; (iii) the expressibility of temporal operators such as Kleene+, conjunction, disjunction and event selection strategies; and (iv) the operators to integrate background information and streaming RDF graph streams.
+CONT	Hence, SPAseq enjoys good expressiveness compared with the existing solutions.
+OWNX	Furthermore, we provide an efficient implementation of SPAseq using a non-deterministic automata (NFA) model for an efficient evaluation of the SPAseq queries. 
+OWNX	We provide the syntax and semantics of SPAseq and based on this, we show how it can be implemented in an efficient manner. 
+OWNX	Moreover, we also present an experimental evaluation of its performance, showing that it improves over state-of-the-art approaches.
+BASE	CrunchBase is a database about startups and technology companies. 
+BASE	The database can be searched, browsed, and edited via a website, but is also accessible via an entity-centric HTTP API in JSON format.
+AIMX	We present a wrapper around the API that provides the data as Linked Data.
+OWNX	The wrapper provides schema-level links to schema.org, Friend-of-a-Friend and Vocabulary-of-a-Friend, and entity-level links to DBpedia for organization entities.
+AIMX	We describe how to harvest the RDF data to obtain a local copy of the data for further processing and querying that goes beyond the access facilities of the CrunchBase API.
+OWNX	Further, we describe the cases in which the Linked Data API for CrunchBase and the crawled CrunchBase RDF data have been used in other works.
+AIMX	We present UnifiedViews, an Extract-Transform-Load (ETL) framework that allows users to define, execute, monitor, debug, schedule, and share data processing tasks, which may employ custom plugins (data processing units) created by users.
+MISC	UnifiedViews natively supports processing of RDF data.
+AIMX	In this paper, we: (1) introduce UnifiedViews' basic concepts and features, (2) demonstrate the maturity of the tool by presenting exemplary projects where UnifiedViews is successfully deployed, and (3) outline research projects and future directions in which UnifiedViews is exploited. OWNX	Based on our practical experience with the tool, we found that UnifiedViews simplifies the creation and maintenance of Linked Data publication processes.
+BASE	With the increasing amount of Linked Data published on the Web, the community has recognised the importance of the quality of such data and a number of initiatives have been undertaken to specify and evaluate Linked Data quality.
+CONT	However, these initiatives are characterised by a high diversity in terms of the quality aspects that they address and measure.
+CONT	This leads to difficulties in comparing and benchmarking evaluation results, as well as in selecting the right data source according to certain quality needs.
+AIMX	This paper presents a quality model for Linked Data, which provides a unique terminology and reference for Linked Data quality specification and evaluation.
+OWNX	The mentioned quality model specifies a set of quality characteristics and quality measures related to Linked Data, together with formulas for the calculation of measures.
+OWNX	Furthermore, this paper also presents an extension of the W3C Data Quality Vocabulary that can be used to capture quality information specific to Linked Data, a Linked Data representation of the Linked Data quality model, and a use case in which the benefits of the quality model proposed in this paper are presented in a tool for Linked Data evaluation.
+BASE	Named entity recognition (NER), which provides useful information for many high level NLP applications and semantic web technologies, is a well-studied topic for most of the languages and especially for English. 
+CONT	However, the modelling of morphologically rich languages (MRLs) for the NER task is still an open research area.
+CONT	The studies for Turkish which is a strong representative of MRLs have fallen behind the well-studied languages for a long while.
+MISC	In recent years, Turkish NER intrigued researchers due to its scarce data resources and the unavailability of high-performing systems. MISC	Especially, the need to semantically enrich the textual data coming with user generated content initiated many studies in this field.
+AIMX	This article presents a CRF-based NER system which successfully models the morphologically very rich nature of this language, its extensions to expand the covered named entity types, and also to process extra challenging user generated content coming with Web 2.0.
+AIMX	The article introduces the re-annotation of the available datasets and a brand new dataset from Web 2.0.
+OWNX	The introduced approach reveals an exact match F1 score of 92% on a dataset collected from Turkish news articles and ~65% on different datasets collected from Web 2.0.
+OWNX	The proposed model is believed to be easily applied to similar MRLs with relevant resources.
+BASE	In recent years, several noteworthy large, cross-domain and openly available knowledge graphs (KGs) have been created. 
+BASE	These include DBpedia, Freebase, OpenCyc, Wikidata, and YAGO.
+CONT	Although extensively in use, these KGs have not been subject to an in-depth comparison so far.
+AIMX	In this survey, we provide data quality criteria according to which KGs can be analyzed and analyze and compare the above mentioned KGs. AIMX	Furthermore, we propose a framework for finding the most suitable KG for a given setting.
+BASE	The Web has evolved into a huge mine of knowledge carved in different forms, the predominant one still being the free-text document.
+BASE	This motivates the need for intelligent Web-reading agents: hypothetically, they would skim through disparate Web sources corpora and generate meaningful structured assertions to fuel knowledge bases (KBs).
+BASE	Ultimately, comprehensive KBs, like Wikidata and DBpedia, play a fundamental role to cope with the issue of information overload. 
+AIMX	On account of such vision, this paper depicts the Fact Extractor, a complete natural language processing (NLP) pipeline which reads an input textual corpus and produces machine-readable statements. 
+OWNX	Each statement is supplied with a confidence score and undergoes a disambiguation step via entity linking, thus allowing the assignment of KB-compliant URIs.
+OWNX	The system implements four research contributions: it (1) executes n-ary relation extraction by applying the frame semantics linguistic theory, as opposed to binary techniques; it (2) simultaneously populates both the T-Box and the A-Box of the target KB; it (3) relies on a single NLP layer, namely part-of-speech tagging; it (4) enables a completely supervised yet reasonably priced machine learning environment through a crowdsourcing strategy. 
+OWNX	We assess our approach by setting the target KB to DBpedia and by considering a use case of 52,000 Italian Wikipedia soccer player articles. OWNX	Out of those, we yield a dataset of more than 213,000 triples with an estimated 81.27% F1.
+OWNX	We corroborate the evaluation via (i) a performance comparison with a baseline system, as well as (ii) an analysis of the T-Box and A-Box augmentation capabilities.
+OWNX	The outcomes are incorporated into the Italian DBpedia chapter, can be queried through its SPARQL endpoint, and/or downloaded as standalone data dumps.
+MISC	The codebase is released as free software and is publicly available in the DBpedia association repository.
+CONT	Given the explosive growth in both data size and schema complexity, data sources are becoming increasingly difficult to use and comprehend. BASE	Summarization aspires to produce an abridged version of the original data source highlighting its most representative concepts.
+AIMX	In this paper, we present an advanced version of the RDF Digest, a novel platform that automatically produces and visualizes high quality summaries of RDF/S Knowledge Bases (KBs).
+MISC	A summary is a valid RDFS graph that includes the most representative concepts of the schema, adapted to the corresponding instances. 
+OWNX	To construct this graph we designed and implemented two algorithms that exploit both the structure of the corresponding graph and the semantics of the KB. Initially we identify the most important nodes using the notion of relevance.
+OWNX	Then we explore how to select the edges connecting these nodes by maximizing either locally or globally the importance of the selected edges. OWNX	The extensive evaluation performed compares our system with two other systems and shows the benefits of our approach and the considerable advantages gained.
+CONT	A major obstacle to the wider use of semantic technology is the perceived complexity of RDF data by stakeholders who are not familiar with the Linked Data paradigm, or are otherwise unaware of a dataset’s underlying schema.
+AIMX	In order to help overcome this barrier, we propose the ExConQuer Framework (Explore, Convert, and Query Framework) as a set of tools that preserve the semantic richness of the data model while catering for simplified and workable views of the data.
+OWNX	Through the available tools users are able to explore and query linked open datasets without requiring any knowledge of SPARQL or the datasets’ underlying schema.
+OWNX	Moreover, executed queries are persisted so that they can be easily explored and re-used, and even edited.
+OWNX	Therefore, with this framework we attempt to target the evident niche in existing tools that are intended to be used by non-experts to consume Linked Data to its full potential.
+BASE	Accessing and utilizing enterprise or Web data that is scattered across multiple data sources is an important task for both applications and users. 
+BASE	Ontology-based data integration, where an ontology mediates between the raw data and its consumers, is a promising approach to facilitate such scenarios.
+BASE	This approach crucially relies on useful mappings to relate the ontology and the data, the latter being typically stored in relational databases.
+MISC	A number of systems to support the construction of such mappings have recently been developed.
+CONT	A generic and effective benchmark for reliable and comparable evaluation of the practical utility of such systems would make an important contribution to the development of ontology-based data integration systems and their application in practice.
+OWNX	We have proposed such a benchmark, called RODI.
+AIMX	In this paper, we present a new version of RODI, which significantly extends our previous benchmark, and we evaluate various systems with it. OWNX	RODI includes test scenarios from the domains of scientific conferences, geographical data, and oil and gas exploration. 
+OWNX	Scenarios are constituted of databases, ontologies, and queries to test expected results. 
+OWNX	Systems that compute relational-to-ontology mappings can be evaluated using RODI by checking how well they can handle various features of relational schemas and ontologies, and how well the computed mappings work for query answering.
+OWNX	Using RODI, we conducted a comprehensive evaluation of seven systems.
+BASE	Stream-based reasoning systems process data stemming from different sources and that are received over time. 
+CONT	In this kind of applications, reasoning needs to cope with the temporal dimension and should be resilient against inconsistencies in the data.
+AIMX	Motivated by such settings, this paper addresses the problem of handling inconsistent data in a temporal version of ontology-mediated query answering. 
+OWNX	   We consider a recently proposed temporal query language that combines conjunctive queries with operators of propositional linear temporal logic, and consider these under three inconsistency-tolerant semantics that have been introduced for querying inconsistent description logic knowledge bases. 
+OWNX	We investigate their complexity for EL_bot and DL-Lite_R temporal knowledge bases. 
+OWNX	In particular, we consider two different cases, depending on the presence of negations in the query. 
+MISC	Furthermore, we complete the complexity picture for the consistent case. 
+CONT	We also provide two approaches toward practical algorithms for inconsistency-tolerant temporal query answering.
+BASE	Sentiment analysis over social streams offers governments and organisations a fast and effective way to monitor the publics' feelings towards policies, brands, business, etc.
+BASE	General purpose sentiment lexicons have been used to compute sentiment from social streams, since they are simple and effective.
+BASE	They calculate the overall sentiment of texts by using a general collection of words, with predetermined sentiment orientation and strength. CONT	However, words' sentiment often vary with the contexts in which they appear, and new words might be encountered that are not covered by the lexicon, particularly in social media environments where content emerges and changes rapidly and constantly.
+AIMX	In this paper, we propose a lexicon adaptation approach that uses contextual as well as semantic information extracted from DBPedia to update the words' weighted sentiment orientations and to add new words to the lexicon. 
+OWNX	We evaluate our approach on three different Twitter datasets, and show that enriching the lexicon with contextual and semantic information improves sentiment computation by 3.4% in average accuracy, and by 2.8% in average F1 measure.
+AIMX	This paper describes our tools and method for an evaluation of the practical and logical implications of combining com-mon linked data vocabularies into a single local logical model for the purpose of reasoning or performing quality evalua-tions. 
+OWNX	These vocabularies need to be unified to form a combined model because they reference or reuse terms from other linked data vocabularies and thus the definitions of those terms must be imported.
+OWNX	We found that strong interdependen-cies between vocabularies are common and that a significant number of logical and practical problems make this model unification inconsistent.
+AIMX	In addition to identifying problems, this paper suggests a set of recommendations for linked data ontology design best practice.
+OWNX	Finally we make some suggestions for improving OWL’s support for distributed authoring and ontology reuse.
+AIMX	This paper describes our tools and method for an evaluation of the practical and logical implications of combining com-mon linked data vocabularies into a single local logical model for the purpose of reasoning or performing quality evalua-tions.
+MISC	These vocabularies need to be unified to form a combined model because they reference or reuse terms from other linked data vocabularies and thus the definitions of those terms must be imported.
+OWNX	We found that strong interdependen-cies between vocabularies are common and that a significant number of logical and practical problems make this model unification inconsistent.
+OWNX	In addition to identifying problems, this paper suggests a set of recommendations for linked data ontology design best practice.
+OWNX	Finally we make some suggestions for improving OWL’s support for distributed authoring and ontology reuse.
+AIMX	This paper introduces DataGraft a cloud-based platform for data transformation and publishing. 
+BASE	DataGraft was developed to provide better and easier to use tools for data workers and developers (e.g., open data publishers, linked data developers, data scientists) who consider existing approaches to data transformation, hosting, and access too costly and technically complex. BASE	DataGraft offers an integrated, flexible, and reliable cloud-based solution for hosted open data management. Key features include flexible management of data transformations (e.g., interactive creation, execution, sharing, and reuse) and reliable data hosting services.
+AIMX	This paper provides an overview of DataGraft focusing on the rationale, key features and components, and evaluation.
+BASE	Implementing semantics-aware services, which includes semantic Web services, requires novel techniques for modeling and analysis.
+CONT	The problems include automated support for service discovery, selection, negotiation, and composition.
+MISC	In addition, support for automated service contracting and contract execution is crucial for any large scale service environment where multiple clients and service providers interact.
+MISC	Many problems in this area involve reasoning, and a number of logic-based methods to handle these problems have emerged in the field of Semantic Web Services.
+AIMX	In this paper, we lay down theoretical foundations for service modeling, contracting, and reasoning, which we call ServLog, by developing novel techniques for modeling and reasoning about service contracts with the help of Concurrent Transaction Logic.
+OWNX	With this framework, we significantly extend the modeling power of the previous work by allowing expressive data constraints and iterative processes in the specification of services.
+OWNX	This approach not only captures typical procedural constructs found in established business process languages, but also greatly extends their functionality, enables declarative specification and reasoning about services, and opens a way for automatic generation of executable business processes from service contracts.
+BASE	Web APIs enjoy a significant increase in popularity and usage in the last decade. 
+BASE	They have become the core technology for exposing functionalities and data. Nevertheless, due to the lack of semantic Web API descriptions their discovery, sharing, integration, and assessment of their quality and consumption is limited.
+AIMX	In this paper, we present the Linked Web APIs dataset, an RDF dataset with semantic descriptions about Web APIs.
+OWNX	It provides semantic descriptions for 11,339 Web APIs, 7,415 mashups and 7,717 developer profiles, which make it the largest available dataset from the Web APIs domain.
+OWNX	The dataset captures the provenance, temporal, technical, functional, and non-functional aspects.
+OWNX	In addition, we describe the Linked Web APIs Ontology, a minimal model which builds on top of several well-known ontologies.
+OWNX	The dataset has been interlinked and published according to the Linked Data principles. Finally, we describe several possible usage scenarios for the dataset and show its potential.
+BASE	Bilingual electronic dictionaries contain collections of lexical entries in two languages, with explicitly declared translation relations between such entries.
+CONT	Nevertheless, they are typically developed in isolation, in their own formats and accessible through proprietary APIs.
+AIMX	In this paper we propose the use of Semantic Web techniques to make translations available on the Web to be consumed by other semantic enabled resources in a direct manner, based on standard languages and query means.
+OWNX	In particular, we describe the conversion of the Apertium family of bilingual dictionaries and lexicons into RDF (Resource Description Framework) and how their data have been made accessible on the Web as linked data.
+OWNX	As a result, all the converted dictionaries (many of them covering under-resourced languages) are connected among them and can be easily traversed from one to another to obtain, for instance, translations between language pairs not originally connected in any of the original dictionaries.
+BASE	DBpedia is at the core of the Linked Open Data Cloud and widely used in research and applications.
+CONT	However, it is far from being perfect. Its content suffers from many flaws, as a result of factual errors inherited from Wikipedia or incomplete mappings from Wikipedia infobox to DBpedia ontology.
+AIMX	In this work we focus on one class of such problems, un-typed entities.
+AIMX	We propose a hierarchical tree-based approach to categorize DBpedia entities according to the DBpedia ontology using human computation and paid microtasks.
+AIMX	We analyse the main dimensions of the crowdsourcing exercise in depth in order to come up with suggestions for workflow design and study three different workflows with automatic and hybrid prediction mechanisms to select possible candidates for the most specific category from the DBpedia ontology.
+OWNX	To test our approach, we run experiments on CrowdFlower using a gold standard dataset of 120 previously unclassified entities. 
+OWNX	In our studies human-computation driven approaches generally achieved higher precision at lower cost when compared to workflows with automatic predictors.
+CONT	However, each of the tested workflows has its merit and none of them seems to perform exceptionally well on the entities that the DBpedia Extraction Framework fails to classify. 
+AIMX	We discuss these findings and their potential implications for the design of effective crowdsourced entity classification in DBpedia and beyond.
+BASE	In the latest years, more and more structured data is published on the Web and the need to support typical Web users to access this body of information has become of crucial importance.
+BASE	Question Answering systems over Linked Data try to address this need by allowing users to query Linked Data using natural language.
+CONT	These systems may query at the same time different heterogenous interlinked datasets, that may provide different results for the same query. CONT	The obtained results can be related by a wide range of heterogenous relations, e.g., one can be the specification of the other, an acronym of the other, etc. 
+CONT	In other cases, such results can contain an inconsistent set of information about the same topic.
+MISC	A well known example of such heterogenous interlinked datasets are language-specific DBpedia chapters, where the same information may be reported in different languages. 
+AIMX	Given the growing importance of multilingualism in the Semantic Web community, and in Question Answering over Linked Data in particular, we choose to apply information reconciliation to this scenario.
+AIMX	In this paper, we address the issue of reconciling information obtained by querying the SPARQL endpoints of language-specific DBpedia chapters.
+OWNX	Starting from a categorization of the possible relations among the resulting instances, we provide a framework to: (i) classify such relations, (ii) reconcile information using argumentation theory, (iii) rank the alternative results depending on the confidence of the source in case of inconsistencies, and (iv) explain the reasons underlying the proposed ranking. 
+OWNX	We release the resource obtained applying our framework to a set of language-specific DBpedia chapters, and we integrate such framework in the Question Answering system QAKiS, that exploits such chapters as RDF datasets to be queried using a natural language interface.
+AIMX	This paper introduces the LOD Laundromat meta-dataset, a continuously updated RDF meta-dataset that describes the documents crawled, cleaned and (re)published by the LOD Laundromat.
+BASE	This meta-dataset of over 110 million triples contains structural information for more than 650,000 documents (and growing).
+BASE	Dataset meta-data is often not provided alongside published data, it is incomplete or it is incomparable given the way they were generated. OWNX	The LOD Laundromat meta-dataset provides a wide range of structural dataset properties, such as the number of triples in LOD Laundromat documents, the average degree in documents, and the distinct number of Blank Nodes, Literals and IRIs.
+OWNX	This makes it a particularly useful dataset for data comparison and analytics, as well as for the global study of the Web of Data.
+AIMX	This paper presents the dataset, its requirements, and its impact.
+BASE	Knowledge on the Web, and in society in general, is diverse: it is mutli-cultural, multi-thematic, multi-perspective, multi-medial, multi-dimensional, and distributed over time, space, and various contexts. 
+BASE	This offers rich opportunities to gain a better and more holistic understanding of complex processes, both physical and social, which require analysis of many of these sources in integrative ways.
+MISC	EKAW 2014, the 19th International Conference on Knowledge Engineering and Knowledge Management, held in November 2014 in Linkoping, Sweden, put a particular emphasis on the heterogeneity in the nature and usage of knowledge.
+AIMX	This special issue collects extended full papers from this conferences that investigate novel knowledge engineering and management methods for constructing, extracting, visualizing, reusing, and integrating data in its various forms and provenances.
+BASE	Many museums are currently providing online access to their collections. 
+BASE	The state of the art research in the last decade shows that it is beneficial for institutions to provide their datasets as Linked Data in order to achieve easy cross-referencing, interlinking and integration.
+AIMX	In this paper, we present the Rijksmuseum linked dataset (accessible at http://datahub.io/dataset/rijksmuseum), along with collection and vocabulary statistics, as well as lessons learned from the process of converting the collection to Linked Data.
+OWNX	The version of March 2016 contains over 350,000 objects, including detailed descriptions and high-quality images released under a public domain license.
+AIMX	We describe SPARQLES: an online system that monitors the health of public SPARQL endpoints on the Web by probing them with custom-designed queries at regular intervals. 
+AIMX	We present the architecture of SPARQLES and the variety of analytics that it runs over public SPARQL endpoints, categorised by availability, discoverability, performance and interoperability.
+AIMX	We also detail the interfaces that the system provides for human and software agents to learn more about the recent history and current state of an individual SPARQL endpoint or about overall trends concerning the maturity of all endpoints monitored by the system.
+AIMX	We likewise present some details of the performance of the system and the impact it has had thus far.
+BASE	A machine reader is a tool able to transform natural language text to formal structured knowledge so as the latter can be interpreted by machines, according to a shared semantics. 
+BASE	FRED is a machine reader for the semantic web: its output is a RDF/OWL graph, whose design is based on frame semantics.
+CONT	Nevertheless, FRED’s graph are domain and task independent making the tool suitable to be used as a semantic middleware for domain- or task- specific applications.
+MISC	To serve this purpose, it is available both as REST service and as Python library.
+AIMX	This paper provides details about FRED’s capabilities, design issues, implementation and evaluation.
+BASE	Semantic Question Answering (SQA) removes two major access requirements to the Semantic Web: the mastery of a formal query language like SPARQL and knowledge of a specific vocabulary. 
+CONT	Because of the complexity of natural language, SQA presents difficult challenges and many research opportunities. 
+CONT	Instead of a shared effort, however, many essential components are redeveloped, which is an inefficient use of researcher’s time and resources.
+AIMX	This survey analyzes 62 different SQA systems, which are systematically and manually selected using predefined inclusion and exclusion criteria, leading to 72 selected publications out of 1960 candidates. 
+AIMX	We identify common challenges, structure solutions, and provide recommendations for future systems.
+OWNX	This work is based on publications from the end of 2010 to July 2015 and is also compared to older but similar surveys.
+AIMX	The objective of this paper is to investigate the scope of OWL-DL ontologies in generating multiple choice questions (MCQs) that can be employed for conducting large scale assessments, and to conduct a detailed study on the effectiveness of the generated assessment items, using principles in the Item Response Theory (IRT). 
+OWNX	The details of a prototype system called Automatic Test Generation (ATG) system and its extended version called Extended-ATG system are elaborated. The ATG system (the initial system) was useful in generating multiple choice question-sets of required sizes from a given formal ontology. OWNX	It works by employing a set of heuristics for selecting only those questions which are required for conducting a domain related assessment.
+OWNX	We enhance this system with new features such as finding the difficulty values of generated MCQs and controlling the overall difficulty-level of question-sets, to form Extended-ATG system (the new system). This paper discusses the novel methods adopted to address these new features.
+OWNX	That is, a method to determine the difficulty-level of a question-stem and an algorithm to control the difficulty of a question-set.
+CONT	While the ATG system uses at most two predicates for generating the stems of MCQs, the E-ATG system has no such limitations and employs several interesting predicate based patterns for stem generation.
+CONT	These predicate patterns are obtained from a detailed empirical study of large real-world question-sets. 
+OWNX	In addition, the new system also incorporates a specific non-pattern based approach which makes use of aggregation-like operations, to generate questions that involve superlatives (e.g., highest mountain, largest river etc.). 
+OWNX	We studied the feasibility and usefulness of the proposed methods by generating MCQs from several ontologies available online. 
+MISC	The effectiveness of the suggested question selection heuristics is studied by comparing the resulting questions with those questions which were prepared by domain experts.
+OWNX	It is found that the difficulty-scores of questions computed by the proposed system are highly correlated with their actual difficulty-scores determined with the help of IRT applied to data from classroom experiments.
+OWNX	Our results show that the E-ATG system can generate domain specific question-sets which are close to the human generated ones (in terms of their semantic similarity).
+OWNX	Also, the system can be potentially used for controlling the overall difficulty-level of the automatically generated question-sets for achieving specific pedagogical goals.
+OWNX	However, our next challenge is to conduct a large-scale experiment under real-world conditions to study the psychometric characteristics (such as reliability and validity) of the automatically generated question items.
+BASE	With the increasing amount of Linked Data published on the Web, the community has recognised the importance of the quality of such data and a number of initiatives have been undertaken to specify and evaluate Linked Data quality.
+CONT	However, these initiatives are characterised by a high diversity in terms of the quality aspects that they address and measure.
+CONT	This leads to difficulties in comparing and benchmarking evaluation results, as well as in selecting the right data source according to certain quality needs.
+AIMX	This paper presents a quality model for Linked Data, which provides a unique terminology and reference for Linked Data quality specification and evaluation.
+OWNX	The mentioned quality model specifies a set of quality characteristics and quality measures related to Linked Data, together with formulas for the calculation of measures.
+OWNX	Furthermore, this paper also presents an extension of the W3C Data Quality Vocabulary that can be used to capture quality information specific to Linked Data, a Linked Data representation of the Linked Data quality model, and a use case in which the benefits of the quality model proposed in this paper are presented in a tool for Linked Data evaluation.
+AIMX	This paper demonstrates that the presence of blank nodes in RDF data represents a problem for distributed processing of SPARQL queries. 
+AIMX	It is shown that the usual decomposition strategies from the literature will leak information---even when information derives from a single source.
+AIMX	It is argued that this leakage, and the proper reparational measures, need to be accounted for in a formal semantics. 
+OWNX	To this end a set semantics for SPARQL is generalized with a parameter representing execution contexts. 
+OWNX	This makes it possible to keep tabs on the naming of blank nodes across execution contexts, which in turn makes it possible to articulate a decomposition strategy that is provably sound and complete wrt any selection of RDF sources even when blank nodes are allowed.
+MISC	Alas, this strategy is not computationally tractable.
+CONT	However, there are ways of utilizing knowledge about the sources, if one has it, that will help considerably.
+BASE	The representation of temporal information has been in the center of intensive research activities over the years in the areas of knowledge representation, databases and more recently, the Semantic Web.
+AIMX	The proposed approach extends the existing framework of representing temporal information in ontologies by allowing for representation of concepts evolving in time (referred to as “dynamic” information) and of their properties in terms of qualitative descriptions in addition to quantitative ones (i.e., dates, time instants and intervals). 
+OWNX	For this purpose, we advocate the use of natural language expressions, such as “before” or “after”, for temporal entities whose exact durations or starting and ending points in time are unknown.
+MISC	Reasoning over all types of temporal information (such as the above) is also an important research problem. 
+AIMX	The current work addresses all these issues as follows: The representation of dynamic concepts is achieved using the “4D-fluents” or, alternatively, the “N-ary relations” mechanism. 
+OWNX	Both mechanisms are thoroughly explored and are expanded for representing qualitative and quantitative temporal information in OWL.
+OWNX	In turn, temporal information is expressed using either intervals or time instants. 
+MISC	Qualitative temporal information representation in particular, is realized using sets of SWRL rules and OWL axioms leading to a sound, complete and tractable reasoning procedure based on path consistency applied on the existing relation sets. 
+OWNX	Building upon existing Semantic Web standards (OWL), tools and member submissions (SWRL), as well as integrating temporal reasoning support into the proposed representation, are important design features of our approach.
+BASE	Recent and intensive research in the biomedical area enabled to accumulate and disseminate biomedical knowledge through various knowledge bases increasingly available on the Web.
+BASE	The exploitation of this knowledge requires to create links between these bases and to use them jointly. Linked Data, the SPARQL language and interfaces in natural language question answering provide interesting solutions for querying such knowledge bases.
+CONT	However, while using biomedical Linked Data is crucial, life-science researchers may have difficulties using the SPARQL language. 
+CONT	Interfaces based on natural language question answering are recognized to be suitable for querying knowledge bases.
+AIMX	In this paper, we propose a method for translating natural language questions into SPARQL queries. 
+OWNX	We use Natural Language Processing tools, semantic resources and RDF triple descriptions. 
+OWNX	We designed a four-step method which allows to linguistically and semantically annotate questions, to perform an abstraction of these questions, then to build a representation of the SPARQL queries, and finally to generate the queries. 
+MISC	The method is designed on 50 questions over three biomedical knowledge bases used in the task 2 of the QALD-4 challenge framework and evaluated on 27 new questions. 
+OWNX	It achieves good performance with 0.78 F-measure on the test set. 
+OWNX	The method for translating questions into SPARQL queries is implemented as a Perl module and is available.
+BASE	One of the current challenges in ontology alignment is the user involvement in the alignment process.
+CONT	To obtain high-quality alignments user involvement is needed for validation of matching results as well as in the mapping generation process. CONT	Further, there is a need for supporting the user in tasks such as matcher selection, combination and tuning.
+AIMX	In this paper we introduce a conceptual ontology alignment framework that enables user involvement in a natural way.
+OWNX	This is achieved by introducing different kinds of interruptible sessions. 
+OWNX	The framework allows partial computations for generating mapping suggestions, partial validations of mapping suggestions, recommendations for alignment strategies as well as the use of validation decisions in the (re-)computation of mapping suggestions and the recommendations. 
+OWNX	Further, we show the feasibility of the approach by implementing a session-based version of an existing system. 
+OWNX	We also show through experiments the advantages of our approach for ontology alignment as well as for evaluation of ontology alignment strategies.
+BASE	In 2012 the Australian Bureau of Meteorology published a dataset, ACORN-SAT, containing the homogenised daily temperature observations of 112 locations throughout Australia for the last 100 years. 
+BASE	The dataset employs the latest analysis techniques and takes advantage of newly digitised observational data to monitor climate variability and change in Australia. 
+CONT	The observations in ACORN-SAT were initially published only as comma separated values, whereas the metadata was published in a PDF report.
+BASE	In 2013 we converted the metadata and the observation data into RDF and published the result as Linked Open Data, accessible online via a pilot government linked data service built on the Linked Data API. 
+AIMX	In this article we describe the process of transforming the original tabular data into a Linked Sensor Data Cube based on the W3C Semantic Sensor Network ontology and the W3C RDF Data Cube vocabulary.
+AIMX	We further discuss how the dataset has since been used and interlinked with near-real time weather observations for the 112 sensing locations of the ACORN-SAT that are published by the Bureau of Meteorology.
+BASE	Mobile hardware has advanced to a point where apps may consume the Semantic Web of Data, as exemplified in domains such as mobile context-awareness, m-Health, m-Tourism and augmented reality. 
+CONT	However, recent work shows that the performance of ontology-based reasoning, an essential Semantic Web building block, still leaves much to be desired on mobile platforms. 
+CONT	This presents a clear need to provide developers with the ability to benchmark mobile reasoning performance, based on their particular application scenarios, i.e, including reasoning tasks, process flows and datasets, to establish the feasibility of mobile deployment. 
+AIMX	In this regard, we present a mobile benchmark framework called MobiBench to help developers to benchmark semantic reasoners on mobile platforms.
+BASE	To realize efficient mobile, ontology-based reasoning, OWL2 RL is a promising solution since it (a) trades expressivity for scalability, which is important on resource-constrained platforms; and (b) provides unique opportunities for optimization due to its rule-based axiomatization. 
+OWNX	In this vein, we propose selections of OWL2 RL rule subsets for optimization purposes, based on several orthogonal dimensions.
+OWNX	We extended MobiBench to support OWL2 RL and the proposed ruleset selections, and benchmarked multiple OWL2 RL-enabled rule engines and OWL reasoners on a mobile platform. 
+OWNX	Our results show significant performance improvements by applying OWL2 RL rule subsets, allowing performant reasoning for small datasets on mobile systems.
+BASE	With the increasing amount of Linked Data published on the Web, the community has recognised the importance of the quality of such data and a number of initiatives have been undertaken to specify and evaluate Linked Data quality.
+CONT	However, these initiatives are characterised by a high diversity in terms of the quality aspects that they address and measure.
+CONT	This leads to difficulties in comparing and benchmarking evaluation results, as well as in selecting the right data source according to certain quality needs.
+AIMX	This paper presents a quality model for Linked Data, which provides a unique terminology and reference for Linked Data quality specification and evaluation.
+OWNX	The mentioned quality model specifies a set of quality characteristics and quality measures related to Linked Data, together with formulas for the calculation of measures.
+OWNX	Furthermore, this paper also presents an extension of the W3C Data Quality Vocabulary that can be used to capture quality information specific to Linked Data, a Linked Data representation of the Linked Data quality model, and a use case in which the benefits of the quality model proposed in this paper are presented in a tool for Linked Data evaluation.
